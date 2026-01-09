@@ -1,0 +1,67 @@
+# Office Assets Management System
+
+The Office Assets Management System is a web-based application developed using Laravel to manage office assets efficiently.  
+It helps organizations track assets, categories, employees, and asset assignments in a structured and secure way.
+
+🚀 Features
+
+- Admin Authentication (Laravel Breeze)
+- Asset Management (Add, Edit, Delete, View)
+- Asset Categories Management (Electronics, Furniture, Housekeeping, etc.)
+- Employee Management
+- Asset Assignment & Tracking
+- Asset Status Tracking (Available, Assigned, Damaged, Under Repair)
+- Dashboard with Statistics
+- Recent Assets, Assignments, and Employees View
+- Secure CRUD Operations
+- Responsive UI using Tailwind CSS
+
+🛠️ Technologies Used
+
+- Backend:Laravel 10+
+- Frontend:Blade Templates, Tailwind CSS
+- Authentication:Laravel Breeze
+- Database:MySQL
+- Version Control:Git & GitHub
+
+📂 Project Modules
+
+1. Assets
+- Asset Name
+- Serial Number
+- Category
+- Status (Available, Assigned, Damaged, Under Repair)
+- Condition
+- Created & Updated Records
+
+2. Categories
+- Electronics
+- Furniture
+- Housekeeping
+- IT Equipment
+- Other Office Assets
+
+3. Employees
+- Employee Name
+- Employee ID
+- Department
+- Position
+- Status (Active, On Leave, Inactive)
+
+4. Assignments
+- Asset Assignment to Employees
+- Assignment Date
+- Active / Inactive Assignment Tracking
+
+#📊 Dashboard Overview
+
+- Total Assets
+- Assigned Assets
+- Available Assets
+- Damaged Assets
+- Total Employees
+- Total Categories
+- Recent Assets
+- Recent Assignments
+- Recent Employees
+- Assets by Status Visualization
